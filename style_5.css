@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+li{
+    list-style: none;
+    cursor: pointer;
+}
+
+
+button{
+    width: fit-content;
+    background-color: #f800ff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+}
+
+
+button:hover{
+    background-color: #fff;
+    color: #000000;
+}
+
+.buy_button{
+    margin-left: 41%;
+    padding: 4px 15px;   
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    background-color: #000000;
+}
+
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+    margin-left: 34px;
+    border-left: 1px solid white;
+    padding: 4px 0 4px 50px;
+    font-size: 13px;
+}
+
+
+nav ul li:hover{
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+
+nav .logo{
+    margin-left: 30px;
+}
+
+
+.hero-section{
+    text-align: center;
+    height: 100%;
+    background-image: url(/HTML_PROJECTS/assets/Project_5/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 129%;
+}
+
+
+.hero-section_1{
+    margin: 6%;
+}  
+
+
+.hero-section .hero-section_1 h1{
+    font-size: 50.5px;
+}
+
+.hero-section .hero-section_1 p{
+   
+}
+
+.hero-section .hero-section_1{
+    font-size: large;
+}
+
+
+.request_button{
+    margin-top: 30px;
+    padding: 8px 15px;
+}
